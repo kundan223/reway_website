@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main {
+    position: relative;
+    overflow: hidden;
+}
+@font-face {
+    font-family: a;
+    src: url(jost-variable.ttf);
+
+}
+@font-face {
+    font-family: b;
+    src: url(KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.6s;
+}
+#page1>video:hover{
+    height: 100%;
+    width: 200%;
+    object-fit: cover;
+}
+.fixed-nav-bar { position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; height: 50px; background-color: #19322f00; }
+
+#page1>nav{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+
+    
+}
+
+#page1>nav>img{
+    width: 9%;
+}
+
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #70b713;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: a;
+    font-size: 15px;
+    transition: 0.6s; /* Add a smooth transition for hover effect */
+}
+
+#right-nav>button:hover {
+    background-color: #5a970f; /* Change the background color on hover */
+}
+#bottom-page1{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    height: 35vh;
+    width: 50%;
+}
+#box {
+    display: flex;
+}
+
+#tab1 {
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#tab1 h2,
+#tab1 h1 {
+    text-align: center;
+}
+
+#tab1 {
+    background-color: #2d9e0edc; /* Optional background color for the first tab */
+}
+#tab2 {
+    background-color: #2d9e0edc; /* Optional background color for the first tab */
+}
+#tab2 {
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#bottom-page1>h1{
+    font-family: a;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+    color: #70b713;
+}
+.bottom-page1-inner{
+    height: 35%;
+    width: 100%;
+    position: absolute;
+    bottom: 40%;
+    font-family: a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-page1-inner>button{
+    padding: 10px 20px ;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #0b48ed;
+    font-family: b;
+    font-size: 16px;
+}
+.bottom-page1-inner>h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #32b817;
+
+
+}
+.page2{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #70b713;
+    position: relative;
+    padding: 0vw 8vw;
+    color: #fff;
+}
+
+.q1{
+    position: relative;
+    bottom: 15.25%;
+   width: 100%;
+    color: #5a970f;
+    background-color: white;
+    font-size: 1.7vw;
+    transition: 0.6s;
+}
+
+
+
+.a1{
+    color:#5a970f;
+    background-color: white;
+    font-size: 1.7vw;
+    transition: 0.3s;
+    text-align: center;
+    width: 100%;
+}
+.a1:hover{
+    background-color: #5a970f;
+    color: white;
+}
+.head{
+    font-weight: 100;
+    color: #32b817;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: a;
+    justify-content: center;
+}
+
+.q2{
+    position: relative;
+    bottom: 10.25%;
+   width: 100%;
+    color: #5a970f;
+    background-color: white;
+    font-size: 1.7vw;
+    transition: 0.6s;
+}
+.page2>h2{
+    font-weight: 100;
+    margin-bottom: 3vw;
+
+}
+.page2>h1{
+    width: 90%;
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 1.3;
+    color: #dadada69;
+}
+.page3>h2{
+    font-weight: 100;
+    margin-bottom: 3vw;
+
+}
+.page3{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #70b713;
+    position: relative;
+    padding: 0vw 8vw;
+    color: #fff;
+    text-align: center;
+}
+ 
+.ill{
+    width: 100%;
+}
+.ill>img{
+    width: 25%;
+
+}
+.pg3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #70b713;
+}
+
+.hero-container {
+    margin: auto;
+    display: flex;
+  }
+  
+  .main-container {
+    width: 270px;
+    height: 540px;
+    position: relative;
+    margin: 0 20px;
+  }
+  
+  .poster-container {
+    width: 230px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 9999;
+  }
+  
+  .poster {
+    width: 100%;
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .ticket-container {
+    background: #fff;
+    width: 3 00%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+  }
+  
+  .main-container:hover .ticket-container {
+    opacity: 1;
+    animation: bounce 0.6s linear;
+  }
+  
+  
+   @keyframes bounce {
+    50% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  } 
+  
+  .ticket__content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  
+
+ 
